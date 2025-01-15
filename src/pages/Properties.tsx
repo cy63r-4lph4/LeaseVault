@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Properties = () => {
-  const [properties, setProperties] = useState([
+  const [properties] = useState([
     {
       id: 1,
       image: "/images/property1.jpeg",
